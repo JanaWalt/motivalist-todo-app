@@ -28,6 +28,19 @@ body,
 
   --color-bg: #dcfaf0;
   --color-text: #49665b;
+
+  --mint-bg: rgba(162, 220, 206, 0.4);
+  --mint-bg-hover: rgba(162, 220, 206, 0.6);
+  --mint-text: #2d6b5e;
+  --mint-shadow: rgba(162, 220, 206, 0.3);
+
+  --radius-s: 16px;
+  --radius-m: 24px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 10px 25px rgba(31, 41, 55, 0.08),
+    inset 0 2px 4px rgba(255, 255, 255, 0.6),
+    inset 0 -2px 6px rgba(0, 0, 0, 0.06);
 }
 
 body {
@@ -55,6 +68,7 @@ button {
   border: 0;
   background: none;
   cursor: pointer;
+  padding: 0;
 }
 
 a {
