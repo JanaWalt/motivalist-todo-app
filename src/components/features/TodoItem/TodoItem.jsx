@@ -5,8 +5,10 @@ import Input from '../../ui/Input/Input'
 
 const TodoItem = () => {
   return (
-    <div className={styles.wrapper}>
-        <Input /> 
+      <div className={styles.todoItem}>
+        <h2 className={styles.todoItem_title}>Aufgabe hinzufügen</h2>
+        <Input placeholder="Aufgabe hier eingeben..." className={styles.todoItem_field}/> 
+        {/* kalendar */}
         <Button />
     </div>
   )

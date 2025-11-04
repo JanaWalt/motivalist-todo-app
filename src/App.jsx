@@ -5,18 +5,13 @@ import Input from "./components/ui/Input/Input";
 
 function App() {
   return (
-    <>
+    <div className="appWrapper">
 <TodoItem />
     <h2>trennlinie</h2>
       <Button />
       <Input />
-      <h1>Vite + React</h1>
-      <div className="card">
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-    </>
+
+    </div>
   );
 }
 
