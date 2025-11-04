@@ -1,0 +1,33 @@
+.todoItem{
+
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 12px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+
+ background-color: rgba(255, 255, 255, 0.6);
+ border-radius: var(--radius-m);
+ box-shadow: var(--shadow-soft);
+
+ backdrop-filter: blur(10px);
+}
+
+.todoItem_title{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--mint-text);
+}
+
+.field{
+    width: 100%;
+}
+
+
+.todoItem:hover{
+ background-color: rgba(255, 255, 255, 0.75);
+ box-shadow: var(--shadow-soft-hover);
+  
+}
+

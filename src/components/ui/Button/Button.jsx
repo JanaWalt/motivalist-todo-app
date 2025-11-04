@@ -4,7 +4,7 @@ import styles from "./Button.module.css";
 const Button = () => {
   return (
     <div>
-      <button className={styles.btn}>+ Add Task</button>
+      <button className={styles.btn}>+ Hinzufügen</button>
     </div>
   );
 };
