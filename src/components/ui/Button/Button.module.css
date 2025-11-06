@@ -1,16 +1,16 @@
 .btn {
   padding: 16px 20px;
   width: 100%;
-  background-color: var(--mint-bg);
-  color: var(--mint-text);
   font-size: 16px;
   box-shadow: var(--shadow-soft);
-  
+
   font-weight: 500;
   border: none;
   border-radius: var(--radius-m);
   cursor: pointer;
   transition: all 0.3s ease;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 .btn:hover {
@@ -19,3 +19,18 @@
   box-shadow: var(--shadow-soft-hover);
 }
 
+.primary {
+  background-color: var(--mint-bg);
+  color: var(--mint-text);
+}
+
+.secondary {
+  background-color: white;
+  color: var(--mint-text);
+  border: 2px solid var(--mint-bg);
+}
+
+.danger {
+  background-color: #faa0aa;
+  color: white;
+}
