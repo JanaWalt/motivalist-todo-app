@@ -30,7 +30,7 @@ body,
   --color-text: #49665b;
 
   --mint-bg: rgba(162, 220, 206, 0.4);
-  --mint-bg-hover: rgba(162, 220, 206, 0.6);
+  --mint-bg-active: rgba(148, 200, 188, 0.6);
   --mint-text: #2d6b5e;
   --mint-shadow: rgba(162, 220, 206, 0.3);
 

@@ -8,29 +8,45 @@
   border: none;
   border-radius: var(--radius-m);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 
   -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 .btn:hover {
-  background-color: var(--mint-bg-hover);
-  transform: translateY(-2px);
+  /* background-color: var(--mint-bg-hover); */
+  /* transform: translateY(-2px); */
   box-shadow: var(--shadow-soft-hover);
+  border: 1px solid var(--mint-text);
+}
+
+.btn:active{
+  transform: translateY(2px);
+background-color: var(--mint-bg-active)
+  /* transform: translateY(0);
+  box-shadow: var(--shadow-soft); */
+}
+
+
+.btn:focus{
+  outline: none;
 }
 
 .primary {
   background-color: var(--mint-bg);
   color: var(--mint-text);
+   border: 1px solid var(--mint-bg);
 }
 
 .secondary {
   background-color: white;
   color: var(--mint-text);
-  border: 2px solid var(--mint-bg);
+  border: 1px solid var(--mint-bg);
 }
 
 .danger {
   background-color: #faa0aa;
   color: white;
+  border: 1px solid #faa0aa;
 }
