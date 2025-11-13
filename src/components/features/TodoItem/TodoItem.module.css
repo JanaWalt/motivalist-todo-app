@@ -31,3 +31,20 @@
   
 }
 
+
+.iconButton{
+/* background: none;
+  border: none; */
+  cursor: pointer;
+  /* padding: 4px; */
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.iconButton:hover{
+
+}
+
+.iconButton:active{
+   
+}

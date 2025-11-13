@@ -15,17 +15,15 @@
 }
 
 .btn:hover {
-  /* background-color: var(--mint-bg-hover); */
-  /* transform: translateY(-2px); */
+
   box-shadow: var(--shadow-soft-hover);
-  border: 1px solid var(--mint-text);
+  border: 1px solid #29652436;
 }
 
 .btn:active{
   transform: translateY(2px);
 background-color: var(--mint-bg-active)
-  /* transform: translateY(0);
-  box-shadow: var(--shadow-soft); */
+
 }
 
 
@@ -46,7 +44,7 @@ background-color: var(--mint-bg-active)
 }
 
 .danger {
-  background-color: #faa0aa;
+  background-color: var(--color-danger);
   color: white;
-  border: 1px solid #faa0aa;
+  border: 1px solid var(--color-danger);
 }
